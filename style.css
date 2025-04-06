@@ -1,3 +1,9 @@
+@keyframes sugarRush {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -27,6 +33,7 @@ body {
     line-height: 50px;
     border: 2px solid #ccc;
     border-radius: 5px;
+    animation: sugarRush 1s infinite alternate;
 }
 
 button {
@@ -43,4 +50,10 @@ button {
 .balance {
     margin-bottom: 10px;
     font-size: 18px;
+}
+
+/* Sugar Rush themed colors */
+.sugar {
+    color: #ff66cc; /* Pink color */
+    background: linear-gradient(45deg, #ffccff, #ff66cc);
 }
