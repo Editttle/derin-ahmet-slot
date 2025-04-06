@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.slot-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.slot {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.row {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    font-size: 32px;
+    line-height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.balance {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
